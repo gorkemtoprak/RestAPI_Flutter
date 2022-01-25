@@ -1,0 +1,30 @@
+name: rest_api
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Logic
+  stacked: ^2.2.8
+  http: ^0.13.4
+
+  #Utils
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
